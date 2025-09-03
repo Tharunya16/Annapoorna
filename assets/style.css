@@ -1,0 +1,258 @@
+.shopping p{
+      text-align: center;
+      background-color: #e6e6e6;
+      color: rgb(101, 91, 91);
+      margin: 0;
+      margin-bottom: 3%;
+      border: 1px solid rgb(187, 182, 182);
+      font-size: 16px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 10px 0;
+    }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  padding: 10px 200px;  
+  position: relative;
+  
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  height: 150px;
+   
+}
+
+.left-icons img,.right-icons img {
+    margin-top: 10px;
+  width: 30px;  
+  height: 30px;
+  cursor: pointer;
+}
+
+.right-icons {
+  display: flex;
+  gap: 20px;
+}
+ul{
+  list-style-type: none;
+  margin:0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+li{
+  display:block;
+  text-align: center;
+  padding: 10px 30px;
+  color: #333;
+}
+li a {
+  text-decoration: none;
+  color:rgb(128, 128, 128);       
+  transition: 0.3s;
+  font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+li a:hover{
+  color: rgb(78, 74, 74);
+  text-decoration: underline;
+}
+/*.dropdown {
+  position: relative;
+}
+.mega-menu {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  width: 600px;  
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  z-index: 1000;
+  display: flex;
+  gap: 30px;
+}
+
+.dropdown:hover .mega-menu {
+  display: flex;
+}
+
+.mega-menu .column {
+  flex: 1;
+}
+
+.mega-menu h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.mega-menu a {
+  display: block;
+  margin: 5px 0;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.mega-menu a:hover {
+  color: #ff6600;
+}
+*/
+.section-title{
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  color:rgb(50, 48, 48);
+  font-size: 24px;
+  margin-left: 100px;
+}
+
+.Product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto); 
+  gap: 1px; 
+  padding: 30px;
+  justify-items: center;
+}
+.product-card {
+    margin: 0;
+  background: #fff;
+  padding: 1px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px; 
+}
+.product-card img {margin: 0;
+  width: 100%;
+  height: 350px;
+}
+.product-card p{
+    text-align: center;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   color: #666;
+}
+.product-card p:hover{
+      color: rgb(78, 74, 74);
+  text-decoration: underline;
+
+}
+.btn {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;        
+}
+
+.btn button {
+  background-color: #0c4684;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn button:hover {
+  background-color: #0056b3;
+}
+.section-title1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  color:rgb(50, 48, 48);
+  font-size: 24px;
+  margin-left: 100px;
+}
+
+.Product-grid1{
+  display: grid;
+  grid-template-columns: repeat(3, auto); 
+  gap: 1px; 
+  padding: 30px;
+  justify-items: center;
+}
+.product-card1 {
+    margin: 0;
+  background: #fff;
+  padding: 1px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px; 
+}
+.product-card1 img {margin: 0;
+  width: 100%;
+  height: 350px;
+}
+.product-card1 p{
+    text-align: center;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   color: #666;
+}
+.product-card1 p:hover{
+      color: rgb(78, 74, 74);
+  text-decoration: underline;
+
+}
+.Bton {
+  display: flex;            
+  justify-content: center;  
+  align-items: center;      
+  margin-top: 5px;
+  width: 100%;
+}
+
+.Bton button {
+  background-color: #0c4684;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Bton button:hover {
+  background-color: #0056b3;
+}
+.subscribe {
+  text-align: center;
+  height: 230px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subscribe p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  
+}
+.subscribe input {
+  width: 300px;        
+  padding: 15px 20px; 
+  font-size: 15px;     
+  border-radius: 3px;  
+  border: none;
+ border-color: #efebeb; 
+  margin-top: 10px;
+}
+.subscribe .sub p{
+  font-size: 35px;
+  
+}

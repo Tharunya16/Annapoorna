@@ -3,16 +3,16 @@ body {
   padding: 0;
 }
 .shopping p{
-      text-align: center;
-      background-color: #e6e6e6;
-      color: rgb(101, 91, 91);
-      margin: 0;
-      margin-bottom: 3%;
-      border: 1px solid rgb(187, 182, 182);
-      font-size: 16px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      padding: 10px 0;
-    }
+  text-align: center;
+  background-color: #e6e6e6;
+  color: rgb(101, 91, 91);
+  margin: 0;
+  margin-bottom: 3%;
+  border: 1px solid rgb(187, 182, 182);
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 0;
+}
 .header {
   display: flex;
   justify-content: space-between;
